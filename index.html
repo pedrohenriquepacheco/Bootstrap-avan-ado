@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ap/bootstrap.min.css">
+    <title>Booststrap avançado</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: rgb(64, 64, 64);
+        }
+
+        h2 {
+            color: #fff;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .card {
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            background-color: #cc00ff;
+            color: #fff;
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border: none;
+        }
+
+        p {
+            color: #fff;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            width: 100%;
+            z-index: 1000;
+        }
+    </style>
+    
+    <header>
+        <div class="navbar">
+    <div class="container">
+        <h1>Bem Vindo a Nossa Loja</h1>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="menu" >
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Brasileiro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Internacionais</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Seleção</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Retro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Infantil</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+        </div>
+    </header>
+    <br>
+<div class="container">
+    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100"  src="https://www.bravamall.com.br/wp-content/uploads/2022/05/EDICE-TAGS.jpeg" />
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100"  src="https://www.shoppingibirapuera.com.br/wp-content/uploads/2021/12/BAYARD-NOVA.png" />
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100"  src="https://www.ultimadivisao.com.br/wp-content/uploads/2023/05/whatsapp-image-2023-05-03-at-205255-1.jpeg" />
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</div>
+    
+    <h2>Nossos Principais Produtos</h2>
+    <div class="container p-4">
+        <div class="text-light">
+        </div>
+        <div class="row g-5 pt-3">
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./img/260d9ebd-f3d0b1dee3fed2dfb717187611500480-1024-1024.jpg" alt="Camisa liverpol 3 24/25 branca masculina ">
+                </a>
+                <p>Camisa Liverpool 3 24/25 masculina: pureza e garra em um só manto. Sinta a história e o futuro dos Reds</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./img/31460e11-7e2f74d2d2122eca0917243328939032-1024-1024.jpg" alt="Camisa Real Madrid 2 adidas-preto 24/25">
+                </a>
+                <p>Camisa 24/25 Real Madrid 2 Adidas: a realeza do futebol em um design moderno e sofisticado. Vista o orgulho merengue.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./img/5f8d62601-548131da37d2a03bd516889424599084-1024-1024.jpg" alt="Camisa italia 23/24 125 anos branco ">
+                </a>
+                <p>Vista a história com a camisa branca da Itália 23/24. Um tributo à tradição e glória do futebol.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./img/986e2145.jpg" alt="Camisa 24/25 AC Milan Home">
+                </a>
+                <p>Camisa 24/25 AC Milan Home: tradição e garra em cada listra. Vista o orgulho rossonero e sinta a história do Milan.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./img/c77f8b18-2e7780a17c17b2d69917171008789784-1024-1024.jpeg" alt="Camisa Bayern München Home 24/25">
+                </a>
+                <p>Camisa 24/25 Bayern de Munique Home: tradição e garra em um só manto. Vista o orgulho do gigante alemão</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./img/eec7cda6-b294cc348b7c6b1bbf17222651393064-1024-1024.jpg" alt="Camisa Tottenham Travis Scott ">
+                </a>
+                <p>Camisa Tottenham x Travis Scott: uma fusão única de moda e esporte. Vista essa edição limitada e mostre sua atitude dentro e fora de campo.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./ap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
